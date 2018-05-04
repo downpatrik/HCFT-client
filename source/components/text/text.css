@@ -1,0 +1,25 @@
+.muted {
+  color: var(--theme-muted);
+}
+
+.center {
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--theme-text-link);
+}
+
+.link:hover,
+.link:focus {
+  text-decoration: underline;
+}
+
+.word-break-all {
+  word-break: break-all;
+}
+
+.block {
+  display: block;
+}

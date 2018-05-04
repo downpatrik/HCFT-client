@@ -1,0 +1,37 @@
+.root {
+  display: block;
+  width: 100%;
+  padding-top: 30px;
+  color: var(--theme-nav-link);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid rgba(150, 155, 158, 0.24);
+  visibility: hidden;
+}
+
+.logo {
+  display: block;
+}
+
+.logo path {
+  fill: currentColor;
+}
+
+.link {
+  color: currentColor;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--theme-nav-link-hover);
+  transition: none;
+}

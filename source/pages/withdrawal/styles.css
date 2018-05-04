@@ -1,0 +1,12 @@
+.form {
+  margin-top: 20px;
+}
+
+.range {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.value {
+  font-weight: bold;
+}

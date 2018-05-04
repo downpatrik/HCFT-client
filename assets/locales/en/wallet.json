@@ -1,0 +1,20 @@
+{
+  "title": "Step 1: Your Ethereum Wallet",
+  "kycTitle": "Step 1: Verify Your Identity",
+  "addressAnnotation":
+    "In order to recieve {{ tokenName }} tokens you need to give your Ethereum Wallet Address.",
+  "addressWarning": "Note: address could not be changed after approval!",
+  "ethereumAddress": "Ethereum address",
+  "save": "Save",
+  "saved": "Saved",
+  "kycOnReview": "Your data is being reviewed. Please, wait for approval.",
+  "kycDenied": "Your data was denied. Please, fix and resubmit your data.",
+  "create": "Create New Wallet",
+  "createWallet": "Create New Ethereum Wallet",
+  "downloadKeystore": "Download Keystore File",
+  "privateKey": "Private key",
+  "address": "Address",
+  "password": "Password",
+  "passwordMessage":
+    "Do NOT forget to save this password! It encrypts your private key. This does not act as a seed to generate your keys. You will need this password + your private key to unlock your wallet."
+}

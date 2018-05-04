@@ -1,0 +1,7 @@
+.diagram svg {
+  padding-bottom: 50px;
+}
+
+.diagram path {
+  fill: transparent;
+}

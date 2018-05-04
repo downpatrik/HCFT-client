@@ -1,0 +1,29 @@
+.title {
+  padding-bottom: 20px;
+
+  @media (--desktop) {
+    padding-bottom: 34px;
+  }
+}
+
+.paragraph {
+  padding-top: 4px;
+  padding-bottom: 18px;
+
+  @media (--desktop) {
+    padding-top: 6px;
+    padding-bottom: 24px;
+  }
+}
+
+.footer {
+  padding-top: 20px;
+
+  @media (--desktop) {
+    padding-top: 30px;
+  }
+}
+
+.red {
+  color: var(--theme-danger);
+}

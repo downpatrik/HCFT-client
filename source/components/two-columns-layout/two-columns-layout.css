@@ -1,0 +1,24 @@
+@import '~/config/styles/sizes.css';
+
+.root {
+  @media (--desktop) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.left {
+  padding-bottom: 16px;
+
+  @media (--desktop) {
+    flex: 1 1 66.23931624%;
+    padding-bottom: 0;
+    padding-right: var(--size-column-gutter);
+  }
+}
+
+.right {
+  @media (--desktop) {
+    flex: 1 1 32.05128205%;
+  }
+}
