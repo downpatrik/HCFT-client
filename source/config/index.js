@@ -7,7 +7,7 @@ const sales = {
 
 const realms = {
   development: '5aa7ad849f70af2a5deaa17c',
-  production: '5ab4e60facbaa7fec5dce368',
+  production: '5ae0457b08782dec19589758',
 };
 
 export const realm: string = realms[process.env.API] || realms.production;
