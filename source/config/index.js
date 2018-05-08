@@ -1,13 +1,14 @@
 // @flow
 
 const sales = {
-  development: '0x18b0c87bfa7331872a1a48b5eb11e337b829b462',
-  production: '0xd22693bf2a8be6cd1b44fcbc018a6e82db8ed874',
+  development: '5adb5c52020d8831579b0c84',
+  staging: '0xd76bdd62ed8cd391b9d69e27c60408a13d2b65f0',
+  production: '0xf76350f0ad6b7cfce1311ef43e2eef488fd16dad',
 };
 
 const realms = {
   development: '5aa7ad849f70af2a5deaa17c',
-  production: '5ae0457b08782dec19589758',
+  production: '5ab4e60facbaa7fec5dce368',
 };
 
 export const realm: string = realms[process.env.API] || realms.production;
