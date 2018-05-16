@@ -1,13 +1,14 @@
 // @flow
 
 const sales = {
-  development: '5adb5c52020d8831579b0c84',
-  staging: '0xd76bdd62ed8cd391b9d69e27c60408a13d2b65f0',
-  production: '0xf76350f0ad6b7cfce1311ef43e2eef488fd16dad',
+  development: '',
+  staging: '',
+  production: '5ae0457b08782dec19589758',
 };
 
 const realms = {
-  development: '5aa7ad849f70af2a5deaa17c',
+  development: '',
+  staging: '',
   production: '5ab4e60facbaa7fec5dce368',
 };
 
